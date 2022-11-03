@@ -5,7 +5,7 @@ require_relative 'lib/database_connection'
 require_relative 'lib/album_repository'
 require_relative 'lib/artist_repository'
 
-DatabaseConnection.connect
+# DatabaseConnection.connect
 
 class Application < Sinatra::Base
   configure :development do
